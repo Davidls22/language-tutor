@@ -1,28 +1,31 @@
-# sv
+# Virtual Language Tutor
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+This is a Svelte application that helps users practice their French by chatting with an AI tutor. Users can type messages in French, click on words for explanations, translate the conversation, and receive feedback on their messages.
 
-## Creating a project
+## Key Features
+- AI-powered conversation practice in French
+- Clickable words for explanations
+- Translation between French and English
+- Message feedback for grammar and usage
+- Dynamic starter prompts to guide the conversation
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Running the Project
 
-```bash
-# create a new project in the current directory
-npx sv create
-
-# create a new project in my-app
-npx sv create my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Once you've cloned the project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 
 ```bash
 npm run dev
 
 # or start the server and open the app in a new browser tab
 npm run dev -- --open
+```
+
+## Testing
+
+This project uses **Vitest** for unit testing. Run the tests with:
+
+```bash
+npx vitest
 ```
 
 ## Building
@@ -35,4 +38,4 @@ npm run build
 
 You can preview the production build with `npm run preview`.
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+
