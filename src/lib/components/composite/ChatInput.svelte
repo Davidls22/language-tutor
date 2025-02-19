@@ -56,6 +56,7 @@
     placeholder="Type your message..."
     bind:value={message}
     on:keydown={(e: KeyboardEvent) => e.key === 'Enter' && handleSubmit()}
+    class="text-black"
   />
   <Button on:click={handleSubmit}>Send</Button>
   <Button on:click={() => (isPromptOpen = !isPromptOpen)}>Prompts</Button>
