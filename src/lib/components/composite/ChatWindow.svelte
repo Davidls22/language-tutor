@@ -21,7 +21,7 @@
   }
 </script>
 
-<div class="max-h-[60vh] overflow-y-auto p-4 border border-gray-300 rounded-lg bg-gray-50 space-y-4 relative">
+<div class="max-h-[60vh] overflow-y-auto p-4 border border-gray-300 rounded-lg bg-gray-50  p-4 space-y-4 relative">
   <!-- User hints -->
   <div class="bg-yellow-50 text-yellow-800 p-2 rounded mb-4 text-sm border border-yellow-300">
     💡 <strong>Hints:</strong> Click <span class="text-blue-600 underline">any word</span> for its explanation. Use <span class="text-blue-500 font-semibold">Translate</span> to translate the entire message, and <span class="text-blue-500 font-semibold">Check My Message</span> for feedback on your response.

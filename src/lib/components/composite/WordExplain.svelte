@@ -45,7 +45,7 @@
 <span class="relative group">
   <button
     on:click={fetchExplanation}
-    class="text-blue-600 underline cursor-pointer hover:bg-blue-50 px-1 rounded"
+    class="text-blue-600 cursor-pointer hover:bg-blue-50 px-1 rounded"
   >
     {word}
   </button>
