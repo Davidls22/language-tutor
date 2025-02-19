@@ -2,7 +2,7 @@
   import Button from '$lib/components/base/Button.svelte';
   import WordExplain from '$lib/components/composite/WordExplain.svelte';
   import type { Message } from '$lib/hooks/useChat';
-  import { getChatContext } from '$lib/contexts/chatContext';
+  import { getChatContext } from '$lib/contexts/ChatContext';
 
   export let messages: Message[] = [];
 
